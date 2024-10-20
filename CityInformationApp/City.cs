@@ -37,11 +37,11 @@ namespace CityInformationApp
                     aConnection.Close();
                     if (rowAffected > 0)
                     {
-                        return "Save Successful";
+                        return "Save Successful!!!";
                     }
                     else
                     {
-                        return "Failed";
+                        return "Failed!!!";
                     } 
                 }
                 
